@@ -49,7 +49,7 @@
   </div>
 
   <!-- about -->
-  <section class="about" data-test="about">
+  <section class="section about" data-test="about">
     <div class="page__container">
       <div class="about__wrapper">
         <h2 class="section__title about__title">
@@ -88,9 +88,134 @@
   </section>
 
   <!-- price -->
-  <section class="price" data-test="price">
+  <section class="section price" data-test="price">
     <div class="page__container">
-
+      <div class="price__wrapper">
+        <h2 class="section__title price__title">
+          Абонементы
+        </h2>
+        <div class="price__kinds subscription">
+          <ul class="subscription__tabs">
+            <li class="subscription__tab subscription__tab--active" data-tab="month">
+              <button class="subscription__tab-button" type="button">
+                1 месяц
+              </button>
+            </li>
+            <li class="subscription__tab" data-tab="half-year">
+              <button class="subscription__tab-button" type="button">
+                6 месяцев
+              </button>
+            </li>
+            <li class="subscription__tab" data-tab="year">
+              <button class="subscription__tab-button" type="button">
+                12 месяцев
+              </button>
+            </li>
+          </ul>
+          <ul class="subscription__tab-items">
+            <li class="subscription__tab-item subscription__tab-item--active" data-tab="month">
+              <ul class="subscription__cards">
+                <li class="subscription__card subscription-card">
+                  <h3 class="visually-hidden">Занятия с тренером</h3>
+                  <p class="subscription-card__title">С тренером</p>
+                  <p class="subscription-card__description">12 занятий</p>
+                  <p class="subscription-card__price" data-price="5000" aria-hidden="true">
+                    <span class="subscription-card__price-value" aria-hidden="false">5000</span>
+                    <picture aria-hidden="false">
+                      <img class="subscription-card__currency" src="img/1700.png" alt="1700 рублей">
+                    </picture>
+                  </p>
+                  <a class="subscription-card__action button" href="#">Купить абонемент</a>
+                </li>
+                <li class="subscription__card subscription-card">
+                  <h3 class="visually-hidden">Занятия днём</h3>
+                  <p class="subscription-card__title">Дневной</p>
+                  <p class="subscription-card__description">с 8:00 до 17:00</p>
+                  <p class="subscription-card__price" data-price="1700" aria-hidden="true">
+                    <span class="subsription-card__price-value" aria-hidden="false">1700</span>
+                    <picture>
+                      <img class="subscription-card__currency" src="img/1700.png" alt="1700 рублей">
+                    </picture>
+                  </p>
+                  <a class="subscription-card__action button" href="#">Купить абонемент</a>
+                </li>
+                <li class="subscription__card subscription-card">
+                  <h3 class="visually-hidden">Занятия в любое время</h3>
+                  <p class="subscription-card__title">Полный день</p>
+                  <p class="subscription-card__description">с 8:00 до 22:00</p>
+                  <p class="subscription-card__price" data-price="2700" aria-hidden="true">
+                    <span class="subscription-card__price-value" aria-hidden="false">2700</span>
+                    <picture>
+                      <img src="img/2700.png" alt="2700 рублей>
+                    </picture>
+                  </p>
+                  <a class="subscription-card__action button" href="#">Купить абонемент</a>
+                </li>
+              </ul>
+            </li>
+            <li class="subscription__tab-item" data-tab="half-year">
+              <ul class="subscription__cards">
+                <li class="subscription__card subscription-card">
+                  <h3 class="visually-hidden">Занятия с тренером</h3>
+                  <p class="subscription-card__title">С тренером</p>
+                  <p class="subscription-card__description">12 занятий</p>
+                  <p class="subscription-card__price" data-price="30000" aria-hidden="true">
+                    <span class="subscription-card__price-value" aria-hidden="false">30000</span>
+                    <picture aria-hidden="false">
+                      <img src="img/1700.png" alt="30000 рублей">
+                    </picture>
+                  </p>
+                  <a class="subscription-card__action button" href="#">Купить абонемент</a>
+                </li>
+                <li class="subscription__card subscription-card">
+                  <h3 class="visually-hidden"></h3>
+                  <p class="subscription-card__title"></p>
+                  <p class="subscription-card__title"></p>
+                  <p class="subscription-card__description"></p>
+                  <p class="subscription-card__price"></p>
+                  <a class="subscription-card__action button" href="#"></a>
+                </li>
+                <li class="subscription__card subscription-card">
+                  <h3 class="visually-hidden"></h3>
+                  <p class="subscription-card__title"></p>
+                  <p class="subscription-card__title"></p>
+                  <p class="subscription-card__description"></p>
+                  <p class="subscription-card__price"></p>
+                  <a class="subscription-card__action button" href="#"></a>
+                </li>
+              </ul>
+            </li>
+            <li class="subscription__tab-item">
+              <ul class="subscription__cards">
+                <li class="subscription__card subscription-card">
+                  <h3 class="visually-hidden"></h3>
+                  <p class="subscription-card__title"></p>
+                  <p class="subscription-card__title"></p>
+                  <p class="subscription-card__description"></p>
+                  <p class="subscription-card__price"></p>
+                  <a class="subscription-card__action button" href="#"></a>
+                </li>
+                <li class="subscription__card subscription-card">
+                  <h3 class="visually-hidden"></h3>
+                  <p class="subscription-card__title"></p>
+                  <p class="subscription-card__title"></p>
+                  <p class="subscription-card__description"></p>
+                  <p class="subscription-card__price"></p>
+                  <a class="subscription-card__action button" href="#"></a>
+                </li>
+                <li class="subscription__card subscription-card">
+                  <h3 class="visually-hidden"></h3>
+                  <p class="subscription-card__title"></p>
+                  <p class="subscription-card__title"></p>
+                  <p class="subscription-card__description"></p>
+                  <p class="subscription-card__price"></p>
+                  <a class="subscription-card__action button" href="#"></a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </section>
 
