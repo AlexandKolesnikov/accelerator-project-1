@@ -404,16 +404,69 @@
   </section>
 
   <!-- footer -->
-  <section class="footer" data-test="footer">
+  <footer class="footer" data-test="footer">
     <div class="page__container">
-
+      <nav class="footer__navigation navigation">
+        <h2 class="visually-hidden">Навигация подвала</h2>
+        <div class="footer__logo-wrapper">
+          <picture>
+            <img src="img/logo.svg" alt="Логотип фитнес зала Supergym">
+          </picture>
+        </div>
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">Услуги</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">Абонементы</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">Акции</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">Тренеры</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">Расписание</a>
+          </li>
+        </ul>
+        <div class="footer__social">
+          <h2 class="visually__hidden">Мы в соцсетях</h2>
+          <ul class="footer__social-list">
+            <li class="footer__social-item">
+              <a class="foter__social-link" href="https://vk.com/htmlacadem">
+                <span class="visually__hidden">Мы Вконтакте</span>
+                <svg width="25" height="25">
+                  <img src="img/vk.svg" alt="">
+                </svg>
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a class="foter__social-link" href="ttps://ok.ru/htmlacademy">
+                <span class="visually__hidden">Мы в Одноклассниках</span>
+                <svg width="25" height="25">
+                  <img src="img/ok.svg" alt="">
+                </svg>
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a class="foter__social-link" href="https://reddit.com/htmlacademy">
+                <span class="visually__hidden">Мы в Реддите</span>
+                <svg width="25" height="25">
+                  <img src="img/Reddit.svg" alt="">
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
-  </section>
+  </footer>
 
 
 
   <!-- примеры требуемых атрибутов data-test="*" -->
-  <div data-test="hero">hero</div>
+  <!-- <div data-test="hero">hero</div>
   <div data-test="about">about</div>
   <div data-test="price">price</div>
   <div data-test="games">games</div>
@@ -423,7 +476,7 @@
   <div data-test="faq">faq</div>
   <div data-test="reviews">reviews</div>
   <div data-test="form">form</div>
-  <div data-test="footer">footer</div>
+  <div data-test="footer">footer</div> -->
 
   <script type="module" src="js/main.js"></script>
 </body>
