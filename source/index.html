@@ -390,9 +390,45 @@
   </section>
 
   <!-- reviews -->
-  <section class="reviews" data-test="reviews">
+  <section class="section reviews" data-test="reviews">
     <div class="page__container">
-
+      <h2 class="section__title reviews__title">
+        Отзывы
+      </h2>
+      <div class="reviews__button-wrapper">
+        <div class="reviews__wrapper swiper">
+          <ul class="reviews__list swiper-slide">
+            <li class="reviews__item swiper-slide">
+              <div class="reviews__item-content">
+                <picture>
+                  <img src="img/rewiews.png" alt="Фото Анны Орловой">
+                </picture>
+                <h3>
+                  Анна Орлова
+                </h3>
+                <p>
+                  «Хожу в Supergym уже больше года. Нравится, что в клубе всегда чисто, тренажёры обновляют, персонал
+                  дружелюбный. Зал просторный, даже в вечернее время нет очередей»
+                </p>
+              </div>
+            </li>
+            <li class="reviews__item swiper-slide">
+              <div class="reviews__item-content">
+                <picture>
+                  <img src="img/rewiews.png" alt="Фото Анны Орловой">
+                </picture>
+                <h3>
+                  Анна Орлова
+                </h3>
+                <p>
+                  «Хожу в Supergym уже больше года. Нравится, что в клубе всегда чисто, тренажёры обновляют, персонал
+                  дружелюбный. Зал просторный, даже в вечернее время нет очередей»
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -403,12 +439,19 @@
         <h2 class="section__title form__title">
           Бесплатное занятие
         </h2>
-        <form class="form__subscription" id="subscription-form" action="https://echo.htmlacademy.ru/" method="post" novalidate>
+        <form class="form__subscription" id="subscription-form" action="https://echo.htmlacademy.ru/" method="post"
+          novalidate>
           <label class="form__input-label">
-            <input class="form__input" type="text" name="name" id="name" required pattern="[a-zA-Z\u0400-\04ff\-\s]{1,}" minlength="1" placeholder="Имя" aria-label="Имя" data-validation-pattern="В поле допускается ввод только букв и пробелов." data-validation-required="Обязательное поле">
+            <input class="form__input" type="text" name="name" id="name" required pattern="[a-zA-Z\u0400-\04ff\-\s]{1,}"
+              minlength="1" placeholder="Имя" aria-label="Имя"
+              data-validation-pattern="В поле допускается ввод только букв и пробелов."
+              data-validation-required="Обязательное поле">
           </label>
           <label class="form__input-label">
-            <input class="form__input" type="tel" name="phone" id="phone" placeholder="Телефон" required pattern="[+]?[0-9\-\(\)\s]+" aria-label="Телефон" data-validation-pattern="В поле допускается ввод только цифр и спец.символов." data-validation-required="Обязательное поле">>
+            <input class="form__input" type="tel" name="phone" id="phone" placeholder="Телефон" required
+              pattern="[+]?[0-9\-\(\)\s]+" aria-label="Телефон"
+              data-validation-pattern="В поле допускается ввод только цифр и спец.символов."
+              data-validation-required="Обязательное поле">>
           </label>
         </form>
       </div>
