@@ -397,9 +397,45 @@
   </section>
 
   <!-- form -->
-  <section class="form" data-test="form">
-    <div class="page__container">
+  <section class="section form" data-test="form">
+    <div class="form">
+      <div class="form__wrapper">
+        <h2 class="section__title form__title">
+          Бесплатное занятие
+        </h2>
+        <form class="form__subscription" id="subscription-form" action="https://echo.htmlacademy.ru/" method="post" novalidate>
+          <label class="form__input-label">
+            <input class="form__input" type="text" name="name" id="name" required pattern="[a-zA-Z\u0400-\04ff\-\s]{1,}" minlength="1" placeholder="Имя" aria-label="Имя" data-validation-pattern="В поле допускается ввод только букв и пробелов." data-validation-required="Обязательное поле">
+          </label>
+          <label class="form__input-label">
+            <input class="form__input" type="tel" name="phone" id="phone" placeholder="Телефон" required pattern="[+]?[0-9\-\(\)\s]+" aria-label="Телефон" data-validation-pattern="В поле допускается ввод только цифр и спец.символов." data-validation-required="Обязательное поле">>
+          </label>
+        </form>
+      </div>
+    </div>
+  </section>
 
+  <section class="section contacts">
+    <div class="contacts__wrapper">
+      <h2 class="section__title contacts__title">Контакты</h2>
+      <ul class="contacts__list">
+        <li class="contacts__item">
+          <p class="contacts__item-title">Адрес:</p>
+          <address class="contacts__item-info">г. Омск, ул. 60 лет Октября, 7</address>
+        </li>
+        <li class="contacts__item">
+          <p class="contacts__item-title">График работы:</p>
+          <p class="contacts__item-info">Пн-Вс: с 8:00 до 22:00</p>
+        </li>
+        <li class="contacts__item">
+          <p class="contacts__item-title contacts__item-title--phone">Телефон:</p>
+          <a class="contacts__item-info" href="tel:88005555555">8 800 555-55-55</a>
+        </li>
+        <li class="contacts__item">
+          <p class="contacts__item-title contacts__item-title--email">Email:</p>
+          <a class="contacts__item-info" href="mailto:omsk@supergym.ru">омск@supergym.ru</a>
+        </li>
+      </ul>
     </div>
   </section>
 
