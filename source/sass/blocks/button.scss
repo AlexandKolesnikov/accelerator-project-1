@@ -1,0 +1,41 @@
+@use "../common/variables.scss";
+@use "../common/mixins.scss";
+
+.button {
+  @include mixins.font-info(variables.$font-primary, 12px, 12px, 700);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  border-width: 2px;
+  border-style: solid;
+  text-decoration: none;
+  text-align: center;
+  padding: 22px;
+  cursor: pointer;
+}
+
+.button--primary {
+  color: variables.$button-color-accent;
+  border: 2px solid variables.$button-color-accent;
+}
+
+.button--secondary {
+  border-color: variables.$font-color-primary;
+  color: variables.$font-color-primary;
+}
+
+.button--swiper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: variables.$font-color-primary;
+  background: variables.$background-color-transparent;
+  margin: 0;
+  padding: 0;
+  border: 1px solid variables.$background-color-transparent;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}

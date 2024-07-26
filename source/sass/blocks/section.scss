@@ -1,0 +1,32 @@
+@use "../common/variables.scss";
+@use "../common/mixins.scss";
+
+.section {
+  display: flex;
+  flex-direction: column;
+
+  @include mixins.mobile {
+    padding: 0;
+  }
+
+  @include mixins.tablet {
+    padding: 0 45px;
+  }
+}
+
+.section__title {
+  margin: 0;
+  padding: 0;
+
+  @include mixins.mobile {
+    @include mixins.font-info(variables.$font-secondary, 32px, 32px, 600);
+  }
+
+  @include mixins.tablet {
+    @include mixins.font-info(variables.$font-secondary, 42px, 42px, 600);
+  }
+
+  @include mixins.desktop {
+    @include mixins.font-info(variables.$font-secondary, 54px, 54px, 600);
+  }
+}

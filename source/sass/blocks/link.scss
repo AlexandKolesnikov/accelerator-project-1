@@ -1,0 +1,22 @@
+@use "../common/variables.scss";
+@use "../common/mixins.scss";
+
+.link {
+  @include mixins.font-info(variables.$font-primary, 14px, 14px, 700);
+
+  text-decoration: uppercase;
+  padding: 10px;
+  text-underline-offset: 6px;
+  cursor: pointer;
+}
+
+.link--primary {
+  border: 1px solid variables.$background-color-transparent;
+  color: variables.$font-color-secondary;
+}
+
+.link--secondary {
+  border: 1px solid variables.$background-color-transparent;
+  color: variables.$button-color-secondary;
+  text-decoration-color: variables.$border-color-secondary;
+}
